@@ -15,9 +15,10 @@ export const Counter = () => {
 };
 
 // Greeting Component
-export const Greeting = ({ name }) => {
-  return <h1 data-testid="greeting">Hello, {name}</h1>;
-};
+// latihan.js
+export function Greeting({ name }) {
+  return <div data-testid="greeting-message">Hello, {name}</div>;
+}
 
 // AlertButton Component
 export const AlertButton = ({ message }) => {
